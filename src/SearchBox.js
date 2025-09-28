@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useCallback } from "react";
 import debounce from "lodash/debounce";
 
