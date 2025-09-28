@@ -6,8 +6,6 @@ name: react CI/CD
 on:
   push:
     branches: [ "master", "qa-test","dev-test",'prod' ]
-  pull_request:
-    branches: [ "master" ]
 
 jobs:
   build:
