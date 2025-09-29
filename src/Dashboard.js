@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useNavigate, useLocation, Outlet } from "react-router-dom";
 import { ThemeContext } from "./contextAPI/ThemeContext";
 import { useContext } from "react";
@@ -7,7 +6,7 @@ import UseMemoComponent from './hooks/UseMemoComponent'
 function Dashboard() {
   const navigate = useNavigate();
 
-  //const location = useLocation()//path
+  const location = useLocation()//path
   const data1= useContext(ThemeContext)
 
 
